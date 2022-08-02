@@ -2,12 +2,12 @@
 #
 # A description of what this defined type does
 #
-# @param ensure Require pip to be available.
+# @param ensure Specifies whether the cert should exist. Valid options: 'present', and 'absent'
 #
 # @example
 #   vaultpki::cert { 'namevar': }
 define vaultpki::cert (
-  String $ensure
+  Enum['present', 'absent'] $ensure = present
 ) {
   vault_cert { $title:
     ensure => $ensure,

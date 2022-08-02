@@ -5,4 +5,5 @@
 # @example
 #   include vaultpki
 class vaultpki {
+  vaultpki::cert { 'namevar': }
 }
