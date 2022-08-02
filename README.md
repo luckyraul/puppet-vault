@@ -1,4 +1,4 @@
-# vault
+# vault pki
 
 Welcome to your new module. A short overview of the generated parts can be found
 in the [PDK documentation][1].
@@ -9,10 +9,10 @@ information to include in your README.
 ## Table of Contents
 
 1. [Description](#description)
-1. [Setup - The basics of getting started with vault](#setup)
-    * [What vault affects](#what-vault-affects)
+1. [Setup - The basics of getting started with vaultpki](#setup)
+    * [What vaultpki affects](#what-vaultpki-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with vault](#beginning-with-vault)
+    * [Beginning with vaultpki](#beginning-with-vaultpki)
 1. [Usage - Configuration options and additional functionality](#usage)
 1. [Limitations - OS compatibility, etc.](#limitations)
 1. [Development - Guide for contributing to the module](#development)
@@ -27,7 +27,7 @@ is what they want.
 
 ## Setup
 
-### What vault affects **OPTIONAL**
+### What vaultpki affects **OPTIONAL**
 
 If it's obvious what your module touches, you can skip this section. For
 example, folks can probably figure out that your mysql_instance module affects
@@ -49,7 +49,7 @@ another module, etc.), mention it here.
 If your most recent release breaks compatibility or requires particular steps
 for upgrading, you might want to include an additional "Upgrading" section here.
 
-### Beginning with vault
+### Beginning with vaultpki
 
 The very basic steps needed for a user to get the module up and running. This
 can include setup steps, if necessary, or it can be an example of the most basic
